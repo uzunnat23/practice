@@ -1,0 +1,43 @@
+.myh2 { 
+  color: #001f66; 
+  font-family: 'Rouge Script', cursive; 
+  font-size: 80px; 
+  font-weight: normal; 
+  line-height: 100px; 
+  margin: 0 0 50px; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px #082b34; 
+
+}
+.myp{
+  font-size: 30px; 
+  letter-spacing: -1px; 
+  color: #002e99; 
+  text-transform: uppercase; 
+  text-shadow: 1px 1px 0 #000; 
+  margin: 10px 0 24px; 
+  text-align: center; 
+  line-height: 50px; 
+}
+
+.todo {
+    margin-bottom: 1rem;
+  }
+  
+  .todo span.completed {
+    text-decoration: line-through;
+  }
+  
+  .todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+  }
+  
+  .todo i {
+    z-index: 2;
+  }
